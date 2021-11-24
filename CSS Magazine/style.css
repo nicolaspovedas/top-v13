@@ -1,0 +1,230 @@
+.portada {
+    background: url(https://cdn.pixabay.com/photo/2016/03/08/20/03/flag-1244649_960_720.jpg);
+    width: 528px;
+    height: 784px;
+    margin: auto;
+    background-size: cover;
+    margin-top: 40px;
+    position: relative;
+}
+
+body {
+    box-sizing: content-box;
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mujer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -4px;
+    z-index: 2;
+}
+
+.e-lle {
+    font-size: 200px;
+    color: #fff;
+    margin-left: 15px;
+    z-index: 8;
+    position: relative;
+    top: -50px;
+}
+.portada:before {
+    content: "";
+    background: #0000006b;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backdrop-filter: blur(2px);
+}
+.lle {
+    font-size: 200px;
+    color: #fff;
+    z-index: 2;
+    position: absolute;
+    top: -50px;
+    right: -40px;
+    letter-spacing: 56px;
+}
+
+section {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    top: 204px;
+    color: #fff;
+}
+
+.cabecera1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecera1 > div {
+}
+
+.position1 {
+    padding-left: 28px;
+}
+
+.position1 h1 {
+    color: yellow;
+    font-size: 50px;
+}
+.position1 h1 {
+    margin-left: -27px;
+}
+.position1 {}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.position1 p {
+    margin-top: -25px;
+    font-style: italic;
+    font-size: 19px;
+    margin-bottom: -2px;
+}
+
+.position1 h2 {
+    max-width: 170px;
+    line-height: 22px;
+}
+
+.position1 h3 {
+    max-width: 130px;
+    line-height: 18px;
+    margin-top: 3px;
+    font-weight: 400;
+}
+
+.position2 {
+    text-align: right;
+    margin-right: 26px;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 184px;
+    flex-wrap: wrap;
+}
+.position2 > p:nth-child(1) {
+    color: yellow;
+    font-size: 22px;
+    max-width: 110px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.position2 > p:nth-child(2) {font-style: italic;font-weight: 300;margin-top: -4px;}
+
+.position2 h2 {
+    font-size: 28px;
+    line-height: 26px;
+    max-width: 110px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    letter-spacing: -2px;
+}
+h2 span {
+    position: absolute;
+}
+
+.position2 h3 {
+    max-width: 120px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.position2 > p:nth-child(6) {
+    font-style: italic;
+    font-weight: 300;
+    margin-top: -4px;
+    max-width: 82px;
+    line-height: 15px;
+    padding-top: 8px;
+}
+
+.cabecera2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 25px;
+}
+
+.position3 p {
+    font-style: italic;
+    font-size: 19px;
+    margin-bottom: -2px;
+    color: yellow;
+}
+
+.position3 h2 {
+    max-width: 150px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.position3 h3 {max-width: 136px;font-size: 18px;font-weight: 500;line-height: 17px;padding-top: 5px;padding-bottom: 5px;}
+
+.position4 {
+    text-align: right;
+    max-width: 130px;
+}
+
+.position4 h1 {
+    color: yellow;
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 35px;
+    padding-top: 15px;
+}
+
+.position4 p {
+    font-size: 18px;
+}
+
+.position4 h2 span {
+    position: inherit;
+    font-size: 45px;
+}
+
+.position4 h2 {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    line-height: 30px;
+    font-size: 28px;
+}
+
+.position4 h3 {
+    max-width: 120px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 17px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-flex;
+}
+
+.flotante {
+    position: absolute;
+    bottom: 0;
+    left: 24px;
+}
+
+.flotante h6 {
+    font-size: 8px;
+    font-weight: 300;
+    max-width: 86px;
+    letter-spacing: -0.2px;
+    line-height: 8px;
+}

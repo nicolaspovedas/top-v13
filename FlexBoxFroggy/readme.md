@@ -1,3 +1,4 @@
+<img width="1440" alt="Captura de Pantalla 2021-12-02 a la(s) 5 17 56 p  m" src="https://user-images.githubusercontent.com/22968636/144513020-a2e1d6da-5d18-4e60-bdd7-fbbc0867c5a6.png">
 1. justify-content: flex-end;
 2. justify-content: center;
 3. justify-content: space-around;
